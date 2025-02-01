@@ -1,0 +1,211 @@
+/* Style global */
+body {
+  background-color: #ffffff !important;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 10px 20px;
+  background-color: #cce0ff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Contenu de la page */
+.homepage-content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section générale */
+.section-container {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* Héros */
+.hero-section {
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Services */
+.services-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-image {
+  height: 80px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Disposition des services */
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-action {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Formulaire de contact */
+.contact-form .form-group {
+  margin: 20px 0;
+}
+
+/* Lignes horizontales entourant les titres */
+.title-line {
+  border: none;
+  height: 2px;
+  background-color: #000;
+  width: 50px;
+  margin: 10px auto;
+}
+
+/* Conteneur centralisé */
+.centered-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Footer */
+.footer {
+  background-color: #b3c9ee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .navbar {
+    gap: 40px;
+  }
+
+  .section-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .services-container {
+    width: 90%;
+  }
+
+  .service-image {
+    height: 70px;
+  }
+
+  .hero-section {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .services-container {
+    width: 100%;
+  }
+
+  .service-item {
+    width: 100%;
+  }
+
+  .hero-section {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .logo {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    gap: 20px;
+  }
+
+  .service-image {
+    height: 60px;
+  }
+
+  .btn-action {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .section-container {
+    padding: 10px;
+    margin: 10px auto;
+  }
+}
