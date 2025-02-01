@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b980dc36.css",
+    "main.js": "/static/js/main.07f071f3.js",
+    "static/js/488.9c92ff38.chunk.js": "/static/js/488.9c92ff38.chunk.js",
+    "static/media/hero-image.png": "/static/media/hero-image.bd6cd96bdc6d7648d3dd.png",
+    "static/media/logo-entreprise.png": "/static/media/logo-entreprise.6da809541aaa904fbc77.png",
+    "static/media/electricite-generale.png": "/static/media/electricite-generale.b5476ebd67b488652365.png",
+    "static/media/energies-renouvelables.png": "/static/media/energies-renouvelables.23c468e67ea972a14cbf.png",
+    "static/media/equipements-et-installations.png": "/static/media/equipements-et-installations.e81c89fa122884335292.png",
+    "static/media/service-divers.png": "/static/media/service-divers.fe90997667a32bd0d1d9.png",
+    "index.html": "/index.html",
+    "main.b980dc36.css.map": "/static/css/main.b980dc36.css.map",
+    "main.07f071f3.js.map": "/static/js/main.07f071f3.js.map",
+    "488.9c92ff38.chunk.js.map": "/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b980dc36.css",
+    "static/js/main.07f071f3.js"
+  ]
+}
